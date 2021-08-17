@@ -59,7 +59,7 @@ mutation createUser {
 ```
 mutation createPost {
   createPost(postDetails: {
-    userId: 2,
+    userId: 1,
     title: "My first Post",
     body: "This is a Post"
   })
@@ -73,9 +73,9 @@ mutation createPost {
 ```
 mutation createComment {
   createComment(commentDetails: {
-    userId: 2,
+    userId: 1,
     postId: 1,
-    body: "Another Comment"
+    body: "First Comment"
   })
   {
     id
@@ -100,7 +100,7 @@ query getAllUsers {
 #### Get user
 ```
 query getUser {
-  getSingleUser(userId: 2) {
+  getSingleUser(userId: 1) {
     name
     posts {
       title
