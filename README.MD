@@ -2,17 +2,20 @@
 
 ### Database
 - Users
+  - id
   - name
   - address
   - phone_number
   - sex
   - timestamps
 - Posts
+  - id
   - user_id
   - title
   - body
   - timestamps
 - Comments
+  - id
   - user_id
   - post_id
   - body
