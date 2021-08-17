@@ -1,4 +1,4 @@
-# FastAPI + PostgreSQL + Graphql
+# FastAPI + Orator + PostgreSQL + GraphQL Demo
 
 ### Database
 - Users
